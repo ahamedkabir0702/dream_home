@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* START HEADER PART*/
+header{
+    margin-top: 25px;
+}
+.container{
+    width: 97%;
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    width: 15%;
+    float: left;
+}
+.logo img{
+    width: 100%; 
+}
+.nav{
+   width: 70%;
+   float: right;
+}
+.nav ul{
+    float: right;
+}
+.nav ul li{
+    display: inline;
+    padding-right: 150px;
+     
+}
+.nav ul li:last-child{
+    padding-right: 100px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #5F7988;
+    display: inline;
+}
+/* END HEADER PART*/
+
+/* START BANNER PART*/
+
+section{
+
+}
+.background{
+        background-image: url(../images/white-and-brown-concrete-bungalow-under-clear-blue-sky-210617.jpg);
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home{
+    top:20% ;
+    position: absolute;
+    width:280px;
+    height: 220px;
+    background: rgba(0, 0, 0, .3);
+    box-sizing: border-box;
+}
+.home h1{
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+    font-size: 25px;
+    width: 70%;
+    padding-left: 25px;
+    padding-top:30px;
+    color:white;
+}
+.home p{
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-size: 14px;
+    padding-left: 25px;
+    padding-bottom:20px;
+    color:white;
+}
+.home button{
+    margin-left:25px;
+    padding: 0;
+    background:rgba(0, 0, 0, .5); 
+    font-weight: 300;
+    font-size: 12px;
+    width: 130px;
+    height: 30px;
+    border: 0px;
+    border-radius: 4px;
+    color:white;
+    cursor: pointer;
+}
+
+
+/* END BANNER PART*/
+
+/* START SERVICE PART*/
+
+.service{}
+.service-0{
+    margin-top: 80px;
+    overflow: hidden;
+    margin-left:  185px;
+}
+.service-1{
+    width: 22%;
+    text-align: center;
+    float: left;
+    margin-right: 185px;
+}
+.service-1 h2{
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-size: 20px;
+    color: #747d8c;
+}
+.service-1 img{
+    width: 100%;
+}
+.service-1 p{
+    margin-top: 20px;
+    padding: 0;
+    font-weight: 300;
+    font-size: 11px;
+    color: #2f3542;
+}
+.service-1 button{
+    margin-top:25px;
+    padding: 0;
+    background:#3C5679; 
+    font-weight: 300;
+    font-size: 11px;
+    width: 70px;
+    height: 25px;
+    border: 0px;
+    border-radius: 4px;
+    color:white;
+    cursor: pointer;
+}
+
+/* END SERVICE PART*/
+
+/* START FOOTER PART*/
+
+.footer{}
+.copyright{
+    text-align: center;
+    margin: 80px 0 40px 0;
+}
+.copyright h3{
+    font-weight: 300;
+    font-size: 12px;
+    color:#3C5679; 
+}
+.copyright p{
+    font-weight: 300;
+    font-size: 10px;
+    color:#3C5679;
+}
+.copyright img{
+    margin-right: 5px;
+}
+
+/* END FOOTER PART*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
